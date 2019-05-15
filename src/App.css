@@ -7,6 +7,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-right: 85px;
 }
 /* 
 h1 {
@@ -25,6 +26,7 @@ h3 {
   height: 50px;
   font: bold 30px/40px 'Montserrat', sans-serif;
   text-transform: uppercase;
+  align-content: center;
 }
 
 .navLinks li {
@@ -75,11 +77,19 @@ h3 {
   width: 40%;
 }
 
-.App div button {
-  display: inline-block;
-  
+.App div a {
+  background:transparent;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+}
+.App div a i.fab {
+  font-size: 30px;
+  color: white;
 }
 
-i.fa {
-  font-family: 'Open Sans', sans-serif;
+.App div a i.fab:hover {
+  font-size: 30px;
+  color: rgb(216, 214, 218)
 }
