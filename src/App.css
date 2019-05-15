@@ -1,33 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700" rel="stylesheet');
+html {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background: url(backgroundpic.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* 
+h1 {
+  font: 60px/75px "Alfa Slab One", cursive, sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font: italic 400 30px/40px "Gentium Book Basic", serif;
+} */
+
+
+.navLinks {
+  list-style: none;
+  padding-left: 0;
+  height: 50px;
+  font: bold 30px/40px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.navLinks a {
+  color:  white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navLinks a.active {
+  color: rgb(235, 214, 252);
+}
+
+.navLinks a.active:hover {
+  color: rgb(187, 153, 202);
+}
+
+.navLinks a:hover {
+  color: rgb(216, 214, 218);
+}
+
 .App {
   text-align: center;
+  display: inline-block; 
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App div {
   color: white;
+  font: bold 50px/60px 'Montserrat', sans-serif;
+  padding-top: 80px;
+  padding-bottom: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.App div p {
+  color: white;
+  font: 20px 'Merriweather', serif;
+  /* position: center;
+  width: 500px;
+  height: 100px;
+  line-height: 20px;
+  text-align: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App div button {
+  display: inline-block;
+  
+}
+
+i.fa {
+  font-family: 'Open Sans', sans-serif;
 }

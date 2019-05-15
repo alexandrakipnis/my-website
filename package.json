@@ -1,4 +1,4 @@
- {
+{
   "name": "personal-website",
   "version": "0.1.0",
   "homepage": "https://alexandrakipnis.github.io/my-website",
@@ -32,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2"
   }
 }
