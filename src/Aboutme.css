@@ -1,0 +1,32 @@
+.Aboutme div{
+    padding-top: 1px;
+} 
+.Aboutme {
+    display: inline-block;
+}
+.Aboutme p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Aboutme p i.fas {
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+.container {
+    padding-left: 50px; 
+    display: inline-block;
+} 
+.image {
+    border: 3px solid black;
+    opacity: 1;
+    display: block;
+    width: 20%;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 30px;
+}

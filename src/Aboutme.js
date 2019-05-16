@@ -5,14 +5,17 @@ import { Route } from 'react-router-dom'
 class Aboutme extends React.Component {
     render() {
         return(
-            <div className="Aboutme">
-                 <Route exact path="/aboutme" 
-                 render={() => 
-                    <h3>
-                        About Me
-                    </h3>
-                }/>
-            </div>
+            <Route exact path="/aboutme" 
+            render={() => 
+                <div className="Aboutme">
+                    <div className="container">
+                        <img src="selfie2.jpg" alt="Avatar" class="image"/>
+                        {/* <h1>About Me</h1> */}
+                    </div>
+                    
+                </div>
+            }
+            />
         )
     }
 }

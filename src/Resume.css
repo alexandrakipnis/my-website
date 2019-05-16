@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700" rel="stylesheet');
+
+.Resume div p {
+    text-align: center; 
+    padding-top: 0px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: -10px;
+    font: bold 30px/40px 'Montserrat', sans-serif;
+}
+
+.Resume div p:hover {
+    color: rgb(216, 214, 218);
+}
+.Resume div {
+    margin-top: -40px;
+}
