@@ -42,7 +42,7 @@ class App extends Component {
                 <i class="fab fa-linkedin-in"></i>
               </a>
               <a href="https://www.facebook.com/sasha.kipnis.92" target="_blank">
-                <i class="fab fa-facebook"></i>
+                <i class="fab fa-facebook-f"></i>
               </a>
               <a href="https://instagram.com/sashkip" target="_blank">
                 <i class="fab fa-instagram"></i>

@@ -7,7 +7,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-right: 85px;
+  padding-right: auto;
 }
 /* 
 h1 {
@@ -41,11 +41,11 @@ h3 {
 }
 
 .navLinks a.active {
-  color: rgb(235, 214, 252);
+  color: rgb(178, 177, 179);
 }
 
 .navLinks a.active:hover {
-  color: rgb(187, 153, 202);
+  color: rgb(149, 149, 150);
 }
 
 .navLinks a:hover {
