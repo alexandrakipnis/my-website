@@ -6,7 +6,7 @@ class Passions extends React.Component {
     render() {
         return(
             <div className="Passions">
-                 <Route exact path="/passions" render={() => <h3>Passions</h3>}/>
+                <h3>Passions</h3>
             </div>
         )
     }

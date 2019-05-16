@@ -7,23 +7,18 @@ class Resume extends React.Component {
         return(
             <div className="Resume">
                  <div className="sections">
-                    <Route exact path="/resume" 
-                    render={() => 
-                        <div className="sections">
-                            <p className="education">
-                                Education
-                            </p>
-                            <p className="skills">
-                                Skills
-                            </p>
-                            <p className="experience">
-                                Experience
-                            </p>
-                            <p className="leadership">
-                                Leadership
-                            </p>
-                        </div>
-                    }/>
+                    <p className="education">
+                        Education
+                    </p>
+                    <p className="skills">
+                        Skills
+                    </p>
+                    <p className="experience">
+                        Experience
+                    </p>
+                    <p className="leadership">
+                        Leadership
+                    </p>
                 </div>
             </div>
         )
