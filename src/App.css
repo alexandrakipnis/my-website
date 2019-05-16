@@ -38,18 +38,25 @@ h3 {
   color:  white;
   text-decoration: none;
   font-size: 25px;
+  -webkit-transition: color 0.25s;
+    -moz-transition:    color 0.25s;
+    -ms-transition:     color 0.25s;
+    -o-transition:      color 0.25s;
+    transition:         color 0.25s;
 }
 
 .navLinks a.active {
-  color: rgb(178, 177, 179);
+  color: rgb(142, 140, 143);
 }
 
 .navLinks a.active:hover {
-  color: rgb(149, 149, 150);
+  color: rgb(85, 83, 83);
+  
 }
 
 .navLinks a:hover {
-  color: rgb(216, 214, 218);
+  color: rgb(149, 96, 202);
+  text-shadow: 2px 2px 2px black;
 }
 
 .App {
@@ -59,7 +66,7 @@ h3 {
 .App div {
   color: white;
   font: bold 50px/60px 'Montserrat', sans-serif;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 0px;
 }
 
@@ -85,11 +92,18 @@ h3 {
   text-decoration: none;
 }
 .App div a i.fab {
-  font-size: 30px;
+  font-size: 35px;
   color: white;
+  -webkit-transition: color 0.25s;
+    -moz-transition:    color 0.25s;
+    -ms-transition:     color 0.25s;
+    -o-transition:      color 0.25s;
+    transition:         color 0.25s;
 }
 
 .App div a i.fab:hover {
-  font-size: 30px;
-  color: rgb(216, 214, 218)
+  font-size: 34px;
+  color: rgb(149, 96, 202);
+  text-shadow: 2px 2px 2px black;
+  transition-delay: 1ms;
 }
