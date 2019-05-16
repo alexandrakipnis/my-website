@@ -12,6 +12,9 @@ class App extends Component {
       <div className="App">
         <ul className="navLinks">
           <li>
+            <NavLink to="/home">Home</NavLink>
+          </li>
+          <li>
             <NavLink to="/aboutme">About Me</NavLink>
           </li>
           <li>
@@ -23,12 +26,36 @@ class App extends Component {
           <li>
             <NavLink to="/goals">Goals</NavLink>
           </li>
+
         </ul>
         <Switch>
           <Route path="/aboutme" component={Aboutme} />
           <Route path="/resume" component={Resume} />
           <Route path="/passions" component={Passions} />
           <Route path="/goals" component={Goals} />
+          <Route path = "/home" render={() => 
+            <div>
+              I'm Sasha Kipnis.
+              <p classname="homepage">
+                Welcome to my personal website. Click on the tabs above to get to know me. Read my accomplishments, explore my passions, and learn my goals. 
+              </p>
+              <a href="https://github.com/alexandrakipnis" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sasha-alexandra-kipnis/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.facebook.com/sasha.kipnis.92" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://instagram.com/sashkip" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/_sashkip" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          } />
           <Route render={() => 
             <div>
               I'm Sasha Kipnis.

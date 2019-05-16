@@ -6,7 +6,12 @@ class Aboutme extends React.Component {
     render() {
         return(
             <div className="Aboutme">
-                 <Route exact path="/aboutme" render={() => <h3>About Me</h3>}/>
+                 <Route exact path="/aboutme" 
+                 render={() => 
+                    <h3>
+                        About Me
+                    </h3>
+                }/>
             </div>
         )
     }
